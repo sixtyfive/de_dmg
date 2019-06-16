@@ -12,7 +12,9 @@ Please see [the current release page](https://github.com/sixtyfive/de_dmg/releas
 
 # Contributing
 
-For Windows, you'll need [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339) which can be used to edit and save [de_dmg.klc](de_dmg.klc). For Linux, I've forgotten how it worked and am currently trying to find out again.
+For Windows, you'll need [Microsoft Keyboard Layout Creator 1.4](https://www.microsoft.com/en-us/download/details.aspx?id=22339) which can be used to edit and save [de_dmg.klc](de_dmg.klc) and also to create installer binaries from the the files inside of `windows/`.
+
+For Linux, I've forgotten how it worked and am currently trying to find out again.
 
 ## What about macOS?
 
