@@ -11,7 +11,7 @@
 
   <xsl:template match="//layout[configItem//name = 'de']/variantList">
     <xsl:copy-of select="@*"/>
-      <variantList>
+    <variantList>
       <xsl:apply-templates/>
       <variant>
         <configItem popularity="standard">
