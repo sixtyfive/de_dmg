@@ -20,6 +20,8 @@ Unfortunately, due to the way [Xorg](https://www.x.org/wiki/)-based Linux distri
 
 ### 1. Prerequisites
 
+For distributions other than the ones listed below, let me know in an [Issue](https://github.com/sixtyfive/de_dmg/issues/new) or, even better, a [PR](https://github.com/sixtyfive/de_dmg/compare)! (For a while now, GitHub has allowed direct editing of files and guides you toward the PR step by step when you commit.)
+
 #### Debian-based (meaning also Ubuntu and Linux Mint)
 
 ```
@@ -31,10 +33,6 @@ sudo apt install git rake xsltproc bash sed grep coreutils
 ```
 sudo eopkg it git ruby libxslt bash sed grep coreutils
 ```
-
----
-
-For other distributions, tell me in an [Issue](https://github.com/sixtyfive/de_dmg/issues/new) or, even better, a [PR](https://github.com/sixtyfive/de_dmg/compare)! (For a while now, GitHub has allowed direct editing of files and guides you toward the PR step by step when you commit.)
 
 ### 2. Download
 
