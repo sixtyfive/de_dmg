@@ -18,9 +18,9 @@ task :lst_files do
     next unless File.exist?(fn)
     unless File.read(fn) =~ /dmg/
       apline =  `grep -n 'de: ' #{fn} | tail -1 | cut -d ':' -f 1`.strip.to_i
-      string = `cat rules/insert.lst | tail -1`.rstrip
+      string = `cat rules/insert.lst | tail -1`.strip
       print "Inserting into #{fn}... "
-      if system("sed -i '#{apline}i#{string}' #{fn}")
+      if system("sed -i '#{apline}i  #{string}' #{fn}")
         print "done\n"
       end
     end
