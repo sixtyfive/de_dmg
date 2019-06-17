@@ -24,6 +24,6 @@ Unfortunately, due to the way [Xorg](https://www.x.org/wiki/)-based Linux distri
 
 The only way to have _de_dmg_ be available out-of-the-box, without having to install it, would be to get [the _dmg_ partial](https://github.com/sixtyfive/de_dmg/blob/master/linux/symbols/de) included "upstream", that is, get it accepted into the [XKB-Config](https://www.freedesktop.org/wiki/Software/XKeyboardConfig/Development/) project. Whoever feels inclined to working with them on their mailing list, you'd be doing a solid to every user!
 
-## What about macOS?
+## And what about macOS?
 
-Back in 2011, StackExchange wasn't as much of a thing yet as it is today, plus, I've never owned and never will own a Mac. [Nowadays things are simpler](https://superuser.com/questions/665494/how-to-make-a-custom-keyboard-layout-in-os-x). If anyone who reads this and owns a Mac would like to contribute a layout, I'd most happily accept a [PR]((https://github.com/sixtyfive/de_dmg/compare)) for that. According to that last link, you can use [a software called Ukulele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele), by the venerable _SIL International_, to make one.
+It'd be quite easy to create a layout for macOS, but I've never owned and never will own a Mac. If anyone who reads this and does own one would like to contribute, I'd most happily accept a [PR]((https://github.com/sixtyfive/de_dmg/compare)) for that. According to [this StackExchange answer](https://superuser.com/questions/665494/how-to-make-a-custom-keyboard-layout-in-os-x), you can use [a software called Ukulele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele), by the venerable _SIL International_, to make one.
