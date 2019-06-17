@@ -18,7 +18,7 @@ For distributions other than the ones listed above, I'd be thankful to hear abou
 
 ### Debian Packaging
 
-Unfortunately, due to the way [Xorg](https://www.x.org/wiki/)-based Linux distributions store keyboard layouts, it's not a simple task to create distribution packages. For Debian, Stephen Kitt over at StackExchange outlines [a way that would work](https://unix.stackexchange.com/a/525397/131503). Help with implementing that idea is most welcome!
+Unfortunately, due to the way [Xorg](https://www.x.org/wiki/)-based Linux distributions store keyboard layouts, it's not a simple task to create distribution packages. For Debian, Stephen Kitt [over at StackExchange](https://unix.stackexchange.com/a/525397/131503) outlines a way that would work. Help with implementing that idea is most welcome!
 
 ### Upstreaming
 
