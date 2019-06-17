@@ -12,6 +12,8 @@ These keyboard layouts were created sometime between 2010 and 2011. The Windows 
 
 See the [ancient release](https://github.com/sixtyfive/de_dmg/releases/tag/ancient) page for installer files or just download the [zip file](https://github.com/sixtyfive/de_dmg/releases/download/ancient/de_dmg-WindowsXP7810-3264.zip) directly, unzip, run `setup.exe`.
 
+After installation, the DMG layout will be immediately available.
+
 ## Linux 
 
 Unfortunately, due to the way [Xorg](https://www.x.org/wiki/)-based Linux distributions store keyboard layouts, it's not at all trivial (and probably not advisable in most cases) to create packages that could be installed with one single command, or by simply double-clicking them in a file manager. So the following steps will all have to be executed in a terminal window. If you don't have experience with such a thing or don't feel comfortable doing it, get a friend to do it. If she's got just a little bit of experience with Linux or another Unix-based operating system, chances are this will be easy for her. If there are any problems, please do open an [Issue](https://github.com/sixtyfive/de_dmg/issues/new).
@@ -38,6 +40,8 @@ git clone https://github.com/sixtyfive/de_dmg.git
 cd de_dmg/linux
 sudo rake install
 ```
+
+<table><tr><td>After Installation, the DMG layout will _not yet_ be available. Logging the user out and back in again _should_ suffice to make it appear, but depending on whether that causes X to restart or not, a reboot _might_ be required.</td></tr></table>
 
 **Heads up:** _each and every time your system updates the [xkb-data](https://packages.debian.org/search?keywords=xkb-data) package, the files modified by the last of the above commands will have the DMG layout removed from them, and the layout will have to be installed again._ The only way to prevent that would be to get [the dmg partial](linux/symbols/de) included "upstream", that is, by the [XKB-Config](https://www.freedesktop.org/wiki/Software/XKeyboardConfig/Development/) project. If anybody feels inclined to working with them on their mailing list, you'd be doing a solid to every user!
 
