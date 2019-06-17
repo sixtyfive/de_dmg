@@ -35,7 +35,7 @@ sudo rake install
 
 # What it looks like
 
-![image](de_dmg.png)
+![image](docs/de_dmg.png)
 
 # Contributing
 
