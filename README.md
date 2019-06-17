@@ -14,7 +14,7 @@ Unfortunately, due to the way [Xorg](https://www.x.org/wiki/)-based Linux distri
 
 ### Prerequisites
 
-#### Debian-based, meaning also Ubuntu and Linux Mint)
+#### Debian-based (meaning also Ubuntu and Linux Mint)
 
 ```
 sudo apt install git rake xsltproc bash sed grep coreutils
