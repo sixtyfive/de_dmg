@@ -2,7 +2,11 @@
 
 These keyboard layouts were created sometime between 2010 and 2011. The Windows version is unchanged since then but reportedly still works fine even for Windows 10. The Linux version used to consist of a Debian package that at some point stopped being installable and has now been replaced with a simple Rakefile. See below for instructions. PRs welcome!
 
-## Download and install
+## What it looks like
+
+![image](docs/de_dmg.png)
+
+## How to get it
 
 ### Windows
 
@@ -34,10 +38,6 @@ sudo rake install
 ```
 
 **Heads up:** _each and every time your system updates the [xkb-data](https://packages.debian.org/search?keywords=xkb-data) package, the files modified by the last of the above commands will have the DMG layout removed from them, and the layout will have to be installed again._ The only way to prevent that would be to get [the dmg partial](linux/symbols/de) included "upstream", that is, by the [XKB-Config](https://www.freedesktop.org/wiki/Software/XKeyboardConfig/Development/) project. If anybody feels inclined to working with them on their mailing list, you'd be doing a solid to every user!
-
-## What it looks like
-
-![image](docs/de_dmg.png)
 
 ## Contributing
 
