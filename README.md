@@ -18,7 +18,7 @@ After installation, the DMG layout will be immediately available.
 
 Unfortunately, due to the way [Xorg](https://www.x.org/wiki/)-based Linux distributions store keyboard layouts, it's not at all trivial (and probably not advisable in most cases) to create packages that could be installed with one single command, or by simply double-clicking them in a file manager. So the following steps will all have to be executed in a terminal window. If you don't have experience with such a thing or don't feel comfortable doing it, get a friend to do it. If she's got just a little bit of experience with Linux or another Unix-based operating system, chances are this will be easy for her. If there are any problems, please do open an [Issue](https://github.com/sixtyfive/de_dmg/issues/new).
 
-### Prerequisites
+### 1. Prerequisites
 
 #### Debian-based (meaning also Ubuntu and Linux Mint)
 
@@ -26,15 +26,23 @@ Unfortunately, due to the way [Xorg](https://www.x.org/wiki/)-based Linux distri
 sudo apt install git rake xsltproc bash sed grep coreutils
 ```
 
-Instructions for other distributions most welcome - open an [Issue](https://github.com/sixtyfive/de_dmg/issues/new) or, even better, a [PR](https://github.com/sixtyfive/de_dmg/compare)! (For a while now, GitHub has allowed direct editing of files and guides you toward the PR step by step when you commit.)
+#### Solus 4.0 (possible older, too, but go and upgrade already!)
 
-### Download
+```
+sudo eopkg it git ruby libxslt bash sed grep coreutils
+```
+
+---
+
+For other distributions, tell me in an [Issue](https://github.com/sixtyfive/de_dmg/issues/new) or, even better, a [PR](https://github.com/sixtyfive/de_dmg/compare)! (For a while now, GitHub has allowed direct editing of files and guides you toward the PR step by step when you commit.)
+
+### 2. Download
 
 ```
 git clone https://github.com/sixtyfive/de_dmg.git
 ```
 
-### Install
+### 3. Install
 
 ```
 cd de_dmg/linux
