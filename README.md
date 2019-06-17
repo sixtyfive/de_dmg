@@ -47,7 +47,7 @@ cd de_dmg/linux
 sudo rake install
 ```
 
-<table><tr><td>After Installation, the layout called "German (DMG)" (it's not <em>l10n</em>'d!) will <em>not yet</em> be available. Logging the user out and back in again <em>should</em> suffice to make it appear, but depending on whether that causes X to restart or not, a reboot <em>might</em> be required.</td></tr></table>
+<table><tr><td>After Installation, the layout (called <em>German (DMG)</em>; the name is not <em>l10n</em>'d!) will <em>not yet</em> be available. Logging the user out and back in again <em>should</em> suffice to make it appear, but depending on whether that causes X to restart or not, a reboot <em>might</em> be required.</td></tr></table>
 
 <table><tr><td><em><strong>Heads up:</strong> each and every time your system updates the <a href="https://packages.debian.org/search?keywords=xkb-data">xkb-data</a> package, the files modified by the last of the above commands will have any changes removed from them, and </em>de_dmg<em> will have to be installed anew.</em></td></tr></table>
 
