@@ -10,11 +10,11 @@ These keyboard layouts were created sometime between 2010 and 2011. The Windows 
 
 ### Windows
 
-See [the current release page](https://github.com/sixtyfive/de_dmg/releases/tag/ancient) for installer files.
+See the [ancient release](https://github.com/sixtyfive/de_dmg/releases/tag/ancient) page for installer files or just download the [zip file](https://github.com/sixtyfive/de_dmg/releases/download/ancient/de_dmg-WindowsXP7810-3264.zip) directly, unzip, run `setup.exe`.
 
 ## Linux 
 
-Unfortunately, due to the way [Xorg](https://www.x.org/wiki/)-based Linux distributions store keyboard layouts, it's not at all trivial (and probably not advisable in most cases) to create packages that could be installed with one single command, or by simply double-clicking them in a file manager. So the following steps will all have to be executed in a terminal window. If you don't have experience with such a thing or don't feel comfortable doing it, get a friend to do it. If she's got just a little bit of experience with Linux or another Unix-based operating system, chances are this will be easy for her. If there are any problems, please do [leave me an Issue](https://github.com/sixtyfive/de_dmg/issues/new).
+Unfortunately, due to the way [Xorg](https://www.x.org/wiki/)-based Linux distributions store keyboard layouts, it's not at all trivial (and probably not advisable in most cases) to create packages that could be installed with one single command, or by simply double-clicking them in a file manager. So the following steps will all have to be executed in a terminal window. If you don't have experience with such a thing or don't feel comfortable doing it, get a friend to do it. If she's got just a little bit of experience with Linux or another Unix-based operating system, chances are this will be easy for her. If there are any problems, please do open an [Issue](https://github.com/sixtyfive/de_dmg/issues/new).
 
 ### Prerequisites
 
@@ -23,6 +23,8 @@ Unfortunately, due to the way [Xorg](https://www.x.org/wiki/)-based Linux distri
 ```
 sudo apt install git rake xsltproc bash sed grep coreutils
 ```
+
+Instructions for other distributions most welcome - open an [Issue](https://github.com/sixtyfive/de_dmg/issues/new) or, even better, a [PR](https://github.com/sixtyfive/de_dmg/compare)! (For a while now, GitHub has allowed direct editing of files and guides you toward the PR step by step when you commit.)
 
 ### Download
 
