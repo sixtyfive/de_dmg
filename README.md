@@ -1,6 +1,4 @@
-# Current State
-
-These keyboard layouts were created sometime between 2010 and 2011. The Windows version reportedly still works fine even for Windows 10, but the Linux version basically consists of a centuries-old `.deb` file which is not installable anymore on modern Debian-based distributions. Until there's an update here, use it, if you know how to—PRs very welcome!
+These keyboard layouts were created sometime between 2010 and 2011. The Windows version is unchanged since then but reportedly still works fine even for Windows 10. The Linux version used to consist of a Debian package that at some point stopped being installable and has now been replaced with a simple Rakefile. See below for instructions. PRs welcome!
 
 # Download and install
 
