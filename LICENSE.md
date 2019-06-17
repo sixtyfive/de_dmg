@@ -1,7 +1,7 @@
 The MIT License (MIT)
 =====================
 
-Copyright © `2011` `J. R. Schmid`
+Copyright © 2011 J. R. Schmid
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
