@@ -1,6 +1,6 @@
 # de_dmg
 
-These keyboard layouts were created sometime between 2010 and 2011. The Windows version is unchanged since then but reportedly still works fine even for Windows 10. The Linux version used to consist of a Debian package that at some point stopped being installable and has now been replaced with a simple Rakefile. See below for instructions. PRs welcome!
+These keyboard layouts were created sometime between 2010 and 2011. The Windows version is unchanged since then but reportedly still works fine even for Windows 10. The Linux version used to consist of a Debian package that at some point stopped being installable and has now been replaced with a simple Rakefile. See below for instructions. [PR]((https://github.com/sixtyfive/de_dmg/compare))s welcome!
 
 ## What it looks like
 
@@ -49,4 +49,4 @@ For Linux, the [Keyboard Layout Editor](https://code.google.com/archive/p/keyboa
 
 ### What about macOS?
 
-Back in 2011, StackExchange wasn't as much of a thing yet as it is today, plus, I've never owned and never will own a Mac. [Nowadays things are simpler](https://superuser.com/questions/665494/how-to-make-a-custom-keyboard-layout-in-os-x). If anyone who reads this and owns a Mac would like to contribute a layout, I'd most happily accept a PR for that. According to that last link, you can use [a software called Ukulele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele), by the venerable _SIL International_, to make one.
+Back in 2011, StackExchange wasn't as much of a thing yet as it is today, plus, I've never owned and never will own a Mac. [Nowadays things are simpler](https://superuser.com/questions/665494/how-to-make-a-custom-keyboard-layout-in-os-x). If anyone who reads this and owns a Mac would like to contribute a layout, I'd most happily accept a [PR]((https://github.com/sixtyfive/de_dmg/compare)) for that. According to that last link, you can use [a software called Ukulele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele), by the venerable _SIL International_, to make one.
