@@ -41,7 +41,7 @@ cd de_dmg/linux
 sudo rake install
 ```
 
-<table><tr><td>After Installation, the DMG layout will _not yet_ be available. Logging the user out and back in again _should_ suffice to make it appear, but depending on whether that causes X to restart or not, a reboot _might_ be required.</td></tr></table>
+<table><tr><td>After Installation, the DMG layout will <em>not yet</em be available. Logging the user out and back in again <em>should</em> suffice to make it appear, but depending on whether that causes X to restart or not, a reboot <em>might</em> be required.</td></tr></table>
 
 <table><tr><td><strong>Heads up:</strong> each <em>and every time your system updates the <a href="https://packages.debian.org/search?keywords=xkb-data">xkb-data</a> package, the files modified by the last of the above commands will have the DMG layout removed from them, and the layout will have to be installed again.</em> (The only way to prevent that would be to get <a href="https://github.com/sixtyfive/de_dmg/blob/master/linux/symbols/de">the dmg partial</a> included "upstream", that is, by the <a href="https://www.freedesktop.org/wiki/Software/XKeyboardConfig/Development/">XKB-Config</a> project. If anybody feels inclined to working with them on their mailing list, you'd be doing a solid to every user!)</td></tr></table>
 
