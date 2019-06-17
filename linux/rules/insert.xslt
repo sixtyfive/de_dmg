@@ -11,12 +11,14 @@
 
   <xsl:template match="//layout[configItem//name = 'de']/variantList">
     <xsl:copy-of select="@*"/>
-    <xsl:apply-templates/>
-    <variant>
-      <configItem popularity="standard">
-        <name>dmg</name>
-        <description>German (DMG)</description>
-      </configItem>
-    </variant>
+      <variantList>
+      <xsl:apply-templates/>
+      <variant>
+        <configItem popularity="standard">
+          <name>dmg</name>
+          <description>German (DMG)</description>
+        </configItem>
+      </variant>
+    </variantList>
   </xsl:template>
 </xsl:stylesheet>
