@@ -14,7 +14,7 @@ Unfortunately, due to the way [Xorg](https://www.x.org/wiki/)-based Linux distri
 
 ### Prerequisites
 
-#### Debian-based, meaning also Ubuntu and Linux Mint)
+#### Debian-based (meaning also Ubuntu and Linux Mint)
 
 ```
 sudo apt install git rake xsltproc bash sed grep coreutils
@@ -33,7 +33,7 @@ cd de_dmg/linux
 sudo rake install
 ```
 
-**Heads up:** Each and every time your system updates the [xkb-data](https://packages.debian.org/search?keywords=xkb-data) package, the files modified by the last of the above commands will have the DMG layout removed from them, and the layout will have to be installed again. The only way to prevent that would be to get the `de_dmg` layout included "upstream", that is, by the [XKB-Config](https://www.freedesktop.org/wiki/Software/XKeyboardConfig/Development/) project. If anybody feels inclined to working with them on their mailing list to get this included, I'd be very happy about it!
+**Heads up:** _each and every time your system updates the [xkb-data](https://packages.debian.org/search?keywords=xkb-data) package, the files modified by the last of the above commands will have the DMG layout removed from them, and the layout will have to be installed again._ The only way to prevent that would be to get [the dmg partial](linux/symbols/de) included "upstream", that is, by the [XKB-Config](https://www.freedesktop.org/wiki/Software/XKeyboardConfig/Development/) project. If anybody feels inclined to working with them on their mailing list, you'd be doing a solid to every user!
 
 ## What it looks like
 
