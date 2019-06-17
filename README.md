@@ -33,7 +33,7 @@ cd de_dmg/linux
 sudo rake install
 ```
 
-**Heads up:** each and every time your system updates the [xkb-data](https://packages.debian.org/search?keywords=xkb-data) package, the files modified by the last of the above commands will have the DMG layout removed from them, and the layout will have to be installed again. The only way to prevent that would be to get the `de_dmg` layout included "upstream", that is, by the [XKB-Config](https://www.freedesktop.org/wiki/Software/XKeyboardConfig/Development/) project. If anybody feels inclined to working with them on their mailing list to get this included, I'd be very happy about it!
+**Heads up:** _each and every time your system updates the [xkb-data](https://packages.debian.org/search?keywords=xkb-data) package, the files modified by the last of the above commands will have the DMG layout removed from them, and the layout will have to be installed again._ The only way to prevent that would be to get the `de_dmg` layout included "upstream", that is, by the [XKB-Config](https://www.freedesktop.org/wiki/Software/XKeyboardConfig/Development/) project. If anybody feels inclined to working with them on their mailing list to get this included, I'd be very happy about it!
 
 ## What it looks like
 
