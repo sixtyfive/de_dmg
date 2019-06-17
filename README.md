@@ -1,6 +1,6 @@
 # de_dmg
 
-These keyboard layouts were created sometime between 2010 and 2011. The Windows version is unchanged since then but reportedly still works fine even for Windows 10. The Linux version used to consist of a Debian package that at some point stopped being installable and has now been replaced with a simple Rakefile. See below for instructions. [PR]((https://github.com/sixtyfive/de_dmg/compare))s welcome!
+These keyboard layouts were created sometime between 2010 and 2011. The Windows version is unchanged since then but reportedly still works fine even for Windows 10. The Linux version used to consist of a Debian package that at some point stopped being installable and has now been replaced with a simple Rakefile. See below for instructions. [PR](https://github.com/sixtyfive/de_dmg/compare)s welcome!
 
 ## What it looks like
 
