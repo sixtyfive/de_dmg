@@ -22,13 +22,13 @@ The following steps will all have to be executed in a terminal window. If you do
 
 ### 1. Prerequisites
 
-#### Debian-based (meaning also Ubuntu and Linux Mint)
+#### a. Debian-based (including Ubuntu and Linux Mint)
 
 ```
 sudo apt install git rake xsltproc bash sed grep coreutils
 ```
 
-#### Solus 4.0 (possible older, too, but go and upgrade already!)
+#### b. Solus 4.0 (possible older, too, but go and upgrade already!)
 
 ```
 sudo eopkg it git ruby libxslt bash sed grep coreutils
