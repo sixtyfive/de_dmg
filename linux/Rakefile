@@ -1,0 +1,56 @@
+task default: [:install]
+
+task :install => [:lst_files, :xml_files, :symb_file] do
+  puts "If you got \"permission denied\" errors above, try with sudo. Otherwise, all done!"
+end
+
+BASE_PATH = '/usr/share/X11/xkb/'
+SYMB_PATH = File.join(BASE_PATH, 'symbols')
+RULE_PATH = File.join(BASE_PATH, 'rules')
+lst_files = xml_files = ['base', 'evdev']
+
+LST_FILES = lst_files.map {|f| File.join(RULE_PATH, f)+'.lst'}
+XML_FILES = xml_files.map {|f| File.join(RULE_PATH, f)+'.xml'}
+SYMB_FILE = File.join(SYMB_PATH, 'de')
+
+task :lst_files do
+  LST_FILES.each do |fn|
+    f = File.read(fn)
+    unless f =~ /dmg/
+      apline =  `grep -n 'de: ' #{fn} | tail -1 | cut -d ':' -f 1`.strip.to_i
+      string = `cat rules/insert.lst | tail -1`.rstrip
+      print "Inserting into #{fn}... "
+      if system("sed -i '#{apline}i#{string}' #{fn}")
+        print "done\n"
+      end
+    end
+  end
+end
+
+task :xml_files do
+  XML_FILES.each do |fn|
+    f = File.read(fn)
+    unless f =~ /dmg/
+      tmpfn = File.join('/tmp', File.basename(fn))
+      print "Inserting into #{fn}... "
+      if system("xsltproc rules/insert.xslt #{fn} > #{tmpfn}")
+        if system("cp #{tmpfn} #{fn}")
+          print "done\n"
+        end
+      end
+    end
+  end
+end
+
+task :symb_file do
+  fn = SYMB_FILE
+  f = File.read(SYMB_FILE)
+  unless f =~ /dmg/
+    print "Inserting into #{fn}... "
+    if system("echo >> #{fn}")
+      if system("cat symbols/de >> #{fn}")
+        print "done\n"
+      end
+    end
+  end
+end
