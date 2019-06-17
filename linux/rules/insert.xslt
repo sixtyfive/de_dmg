@@ -13,7 +13,7 @@
     <xsl:copy-of select="@*"/>
     <xsl:apply-templates/>
     <variant>
-      <configItem>
+      <configItem popularity="standard">
         <name>dmg</name>
         <description>German (DMG)</description>
       </configItem>
