@@ -6,7 +6,7 @@ For Windows, you'll need [Microsoft Keyboard Layout Creator 1.4](https://www.mic
 
 For Linux, the [Keyboard Layout Editor](https://code.google.com/archive/p/keyboardlayouteditor/) can be used. It doesn't offer the same convenience as Microsoft's offering for Windows, so the result will have to be saved into the [de](linux/symbols/de) file and everything extraneous be removed manually; also mind the files in `linux/rules/`.
 
-As noted in the [README](README.md), <em>de_dmg</em> is an Xorg keyboard layout only. Given that at least standard [Fedora Workstation](https://getfedora.org/de/workstation/) seems to be sticking with [Wayland](https://wayland.freedesktop.org/), a port of <em>de_dmg</em> to Wayland would be a great thing to have!
+As noted in the [README](README.md), <em>de_dmg</em> is an Xorg keyboard layout only. Given that at least standard [Fedora Workstation](https://getfedora.org/de/workstation/) seems to be sticking with [Wayland](https://wayland.freedesktop.org/), a port of <em>de_dmg</em> to Wayland would be a great thing to have! Check out https://brokkr.net/2019/01/11/customize-your-keyboard-layout-and-have-it-work-under-wayland/ and https://askubuntu.com/questions/991742/modifying-keyboard-layout-in-wayland maybe.
 
 ## Windows
 
