@@ -1,9 +1,5 @@
 task default: [:install]
 
-task :install => [:lst_files, :xml_files, :symb_file] do
-  puts "If you got \"permission denied\" errors above, try with sudo. Otherwise, all done!"
-end
-
 BASE_PATH = '/usr/share/X11/xkb/'
 SYMB_PATH = File.join(BASE_PATH, 'symbols')
 RULE_PATH = File.join(BASE_PATH, 'rules')
@@ -12,6 +8,22 @@ lst_files = xml_files = ['base', 'evdev', 'xfree86', 'xorg']
 LST_FILES = lst_files.map {|f| File.join(RULE_PATH, f)+'.lst'}
 XML_FILES = xml_files.map {|f| File.join(RULE_PATH, f)+'.xml'}
 SYMB_FILE = File.join(SYMB_PATH, 'de')
+$modified = 0
+
+task :install => [:lst_files, :xml_files, :symb_file] do
+  if $modified >= 5
+    puts "Looks good!"
+  elsif Process.uid != 0 
+    puts "Error: this task must be run as root. Try again prepending \"sudo\"!"
+  elsif `grep -r 'dmg' #{SYMB_PATH} #{RULE_PATH} | wc -l`.to_i < 5
+    puts "Something went wrong. Please contact us by creating an Issue on the GitHub project."
+    puts "providing information on your distribution (including the version) and, if possible,"
+    puts "a screenshot of your terminal window at this point."
+  else
+    puts "Seems de_dmg is already installed..."
+  end
+  puts
+end
 
 task :lst_files do
   LST_FILES.each do |fn|
@@ -22,6 +34,7 @@ task :lst_files do
       print "Inserting into #{fn}... "
       if system("sed -i '#{apline}i  #{string}' #{fn}")
         print "done\n"
+        $modified += 1
       end
     end
   end
@@ -36,6 +49,7 @@ task :xml_files do
       if system("xsltproc rules/insert.xslt #{fn} > #{tmpfn}")
         if system("cp #{tmpfn} #{fn}")
           print "done\n"
+          $modified += 1
         end
       end
     end
@@ -49,6 +63,7 @@ task :symb_file do
     if system("echo >> #{fn}")
       if system("cat symbols/de >> #{fn}")
         print "done\n"
+        $modified += 1
       end
     end
   end
