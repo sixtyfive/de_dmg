@@ -10,6 +10,7 @@ XML_FILES = xml_files.map {|f| File.join(RULE_PATH, f)+'.xml'}
 SYMB_FILE = File.join(SYMB_PATH, 'de')
 $modified = 0
 
+desc "Install de_dmg into the system by modifying xkb-data files"
 task :install => [:lst_files, :xml_files, :symb_file] do
   if $modified >= 5
     puts "Changed #{$modified} files in total. Looks good!"
