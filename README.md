@@ -30,7 +30,7 @@ The following steps will all have to be executed in a terminal window. If you do
 sudo apt install git rake xsltproc bash sed grep coreutils xkb-data
 ```
 
-#### Solus 4.0 (possible older, too, but go and upgrade already!)
+#### Solus 4.0 (possibly older versions, too, but go and upgrade already!)
 
 ```
 sudo eopkg it git ruby libxslt bash sed grep coreutils
