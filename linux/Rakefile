@@ -1,5 +1,10 @@
 task default: [:install]
 
+if Process.uid != 0 
+  puts "Error: this task must be run as root. Try again prepending \"sudo\"!\n\n"
+  exit
+end
+
 BASE_PATH = '/usr/share/X11/xkb/'
 SYMB_PATH = File.join(BASE_PATH, 'symbols')
 RULE_PATH = File.join(BASE_PATH, 'rules')
@@ -14,8 +19,6 @@ desc "Install de_dmg into the system by modifying xkb-data files"
 task :install => [:lst_files, :xml_files, :symb_file] do
   if $modified >= 5
     puts "Changed #{$modified} files in total. Looks good!"
-  elsif Process.uid != 0 
-    puts "Error: this task must be run as root. Try again prepending \"sudo\"!"
   elsif `grep -r 'dmg' #{SYMB_PATH} #{RULE_PATH} | wc -l`.to_i < 5
     puts "Something went wrong. Please contact us by creating an Issue on the GitHub project."
     puts "providing information on your distribution (including the version) and, if possible,"
