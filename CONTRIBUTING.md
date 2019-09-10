@@ -10,7 +10,7 @@ As noted in the [README](README.md), <em>de_dmg</em> is an Xorg keyboard layout 
 
 ## Windows
 
-I can't think of anything that needs doing.
+I can't think of anything that needs doing. If you would like to create a layout of your own, use [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339).
 
 ## Linux 
 
