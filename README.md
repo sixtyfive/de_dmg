@@ -19,9 +19,12 @@ This is what the layout looks like:
 
 ### Comparison table
 
-```
-  Level 1 (no modifier key)     Level 2 (with Shift)         Level 3 (with Alt Gr)                          Level 4 (Alt Gr + Shift)
-```
+From left to right, with one empty column between:
+
+- Level 1 (no modifier key)
+- Level 2 (with Shift)
+- Level 3 (with Alt Gr)
+- Level 4 (Alt Gr + Shift)
 
 | de_dmg | de     | (ara) |   | de_dmg | de    | (ara) |   | de_dmg           | de            | (ara) |   | de_dmg          | de    | (ara) |
 |--------|--------|-------|---|--------|-------|-------|---|------------------|---------------|-------|---|-----------------|-------|-------|
