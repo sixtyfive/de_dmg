@@ -29,12 +29,12 @@ From left to right, with one empty column between:
 | de_dmg | de     | (ara) |   | de_dmg | de    | (ara) |   | de_dmg           | de            | (ara) |   | de_dmg          | de    | (ara) |
 |--------|--------|-------|---|--------|-------|-------|---|------------------|---------------|-------|---|-----------------|-------|-------|
 |        |        |       |   |        |       |       |   |                  |               |       |   |                 |       |       |
-| ^      | ^_     | **ذ** |   | °      | °     |       |   | ḏ                | ′             |       |   | Ḏ               | ″     |       |
-| '      | **'**_ |       |   | `      | `_    |       |   |                  |               |       |   | ʿ (ع)           | ˛_    |       |
+| ^      | ^.     | **ذ** |   | °      | °     |       |   | ḏ                | ′             |       |   | Ḏ               | ″     |       |
+| '      | **'**. |       |   | `      | `.    |       |   |                  |               |       |   | ʿ (ع)           | ˛.    |       |
 |        |        |       |   |        | **$** |       |   | **š**            | ¼             |       |   |                 |       |       |
 |        |        |       |   |        |       |       |   | empty            | ½             |       |   |                 |       |       |
 |        |        |       |   |        |       |       |   | empty            | ¬             |       |   |                 |       |       |
-|        |        |       |   |        |       |       |   | ʾ (ء)            | ¸_            |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   | ʾ (ء)            | ¸.            |       |   |                 |       |       |
 |        |        |       |   |        |       |       |   |                  |               |       |   |                 |       |       |
 |        |        |       |   |        |       |       |   | empty            | ł             |       |   |                 |       |       |
 |        | _r_    |       |   |        |       |       |   | _ṯ_              | ¶             |       |   | _Ṯ_             |       |       |
@@ -50,19 +50,20 @@ From left to right, with one empty column between:
 |        | **e**  |       |   |        |       |       |   | ē                | đ             |       |   |                 |       |       |
 |        | **g**  |       |   |        |       |       |   | ġ                | ◌̄             |       |   |                 |       |       |
 |        | **h**  |       |   |        |       |       |   | ḥ                | ħ             |       |   |                 |       |       |
-|        | **g**  |       |   |        |       |       |   | ǧ                | ◌̣_ (underdot) |       |   |                 |       |       |
+|        | **g**  |       |   |        |       |       |   | ǧ                | ◌̣. (underdot) |       |   |                 |       |       |
 |        |        |       |   |        |       |       |   | ◌̇ (overdot)      | ĸ             |       |   |                 |       |       |
 |        | **l**  |       |   |        |       |       |   | ḷ                | ł             |       |   |                 |       |       |
-|        |        |       |   |        |       |       |   | ◌̱ (underbar)     | ˝_            |       |   | ◌̬ (caron below) | empty |       |
-|        |        |       |   |        |       |       |   | å                | ^_            |       |   |                 |       |       |
-|        |        |       |   |        |       |       |   | ˇ_ (caron above) | ’             |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   | ◌̱ (underbar)     | ˝.            |       |   | ◌̬ (caron below) | empty |       |
+|        |        |       |   |        |       |       |   | å                | ^.            |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   | ˇ. (caron above) | ’             |       |   |                 |       |       |
 |        |        |       |   |        |       |       |   |                  |               |       |   |                 |       |       |
 |        |        |       |   |        |       |       |   | empty            | »             |       |   | empty           | ›     |       |
 |        | **x**  |       |   |        |       |       |   | ḫ                | «             |       |   | Ḫ               | ‹     |       |
 |        |        |       |   |        |       |       |   |                  |               |       |   | ◌̄ (macron)      | —     |       |
 
-_Note 1: Some cells show a symbol followed by an underscore, for example ^_. Those are so-called "dead" keys where for anything to show up, the spacebar has to be pressed following the key.
-_Note 2: Note that "ḫ" is a latin letter "h" with a breve, **not** a caron, below. The diacritic symbol on the "ö" key, on the other hand, is a **caron** below.
+- _Note 1: Some cells show a symbol followed by a dot, for example "^.". Those are so-called "dead" keys where for anything to show up, the spacebar has to be pressed following the key._
+- _Note 2: "Ḫ" is a latin letter "h" with a breve, **not** a caron, below. The diacritic symbol on the "ö" key, on the other hand, is a **caron** below._
+- _Note 3: In order to combine a letter with one of the standalone diacritics provided, type the letter first, then, _without_ hitting any other key, including spacebar, type the diacritic._
 
 ## How to get
 
