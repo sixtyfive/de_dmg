@@ -4,11 +4,64 @@ These keyboard layouts were created sometime between 2010 and 2011. The Windows 
 
 See below for installation instructions. [PRs](https://github.com/sixtyfive/de_dmg/compare) welcome!
 
-## What it looks like
+## How to use
+
+The `de_dmg` layout began as an Arabic-only layout before some users wished for the ability to type other phonemes (such as the Persian _s̱_ or the Ottoman _ż_) as well. Unfortunately, PC keyboards, even with using all four levels (no modifier key; with Shift; with Alt Gr; with Alt Gr and Shift) don't provide enough keys to accomodate all required combinations of letters and diacritic symbols. Therefore we decided to have a dedicated key for all symbols required for Arabic and combine that with having keys for the diacritic symbols to freely combine them with any desired letter.
+
+This is what the layout looks like:
 
 ![image](docs/de_dmg.png)
 
-## How to get it
+- The first level (no modifier) is the default German QWERTZ layout, including all umlauts (_ä_, _ü_, _ö_) as well as _ß_.
+- The second level (_Shift_ as the modifier) is the same, but with uppercase letters.
+- By using _Alt Gr_ you reach the third level, which retains _¹_, _²_, _³_, _@_, _€_, _~_, _|_, _„_, _”_, _·_, _…_ and _–_ as you might be used to. But it also has all of the Arabic phonemes (see table below) by putting the diacritized latin letters (mostly) to where their non-diacritized version are on the default German layout, (sometimes) on where the corresponding Arabic letter is on the US-based Arabic layout, and (in one case, unfortunately, with _š_ being on the _$_ key), in a location that at least allows one to form a mnemonic hook. 
+- By combining _Alt Gr_ with _Shift_, you get the same diacritized latin letters, but uppercase versions of them.
+
+### Comparison table
+
+```
+  Level 1 (no modifier key)     Level 2 (with Shift)         Level 3 (with Alt Gr)                          Level 4 (Alt Gr + Shift)
+```
+
+| de_dmg | de     | (ara) |   | de_dmg | de    | (ara) |   | de_dmg           | de            | (ara) |   | de_dmg          | de    | (ara) |
+|--------|--------|-------|---|--------|-------|-------|---|------------------|---------------|-------|---|-----------------|-------|-------|
+|        |        |       |   |        |       |       |   |                  |               |       |   |                 |       |       |
+| ^      | ^_     | **ذ** |   | °      | °     |       |   | ḏ                | ′             |       |   | Ḏ               | ″     |       |
+| '      | **'**_ |       |   | `      | `_    |       |   |                  |               |       |   | ʿ (ع)           | ˛_    |       |
+|        |        |       |   |        | **$** |       |   | **š**            | ¼             |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   | empty            | ½             |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   | empty            | ¬             |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   | ʾ (ء)            | ¸_            |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   |                  |               |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   | empty            | ł             |       |   |                 |       |       |
+|        | _r_    |       |   |        |       |       |   | _ṯ_              | ¶             |       |   | _Ṯ_             |       |       |
+|        | **t**  |       |   |        |       |       |   | ṭ                | ŧ             |       |   | Ṭ               |       |       |
+|        | **z**  |       |   |        |       |       |   | ẓ                | ←             |       |   | Ẓ               |       |       |
+|        | **u**  |       |   |        |       |       |   | ū                | ↓             |       |   |                 |       |       |
+|        | **i**  |       |   |        |       |       |   | ī                | →             |       |   | Ī               |       |       |
+|        | **o**  |       |   |        |       |       |   | ō                | ø             |       |   | Ō               |       |       |
+|        |        |       |   |        |       |       |   |                  |               |       |   |                 |       |       |
+|        | **a**  |       |   |        |       |       |   | ā                | æ             |       |   |                 |       |       |
+|        | **s**  |       |   |        |       |       |   | ṣ                | ſ             |       |   |                 |       |       |
+|        | **d**  |       |   |        |       |       |   | ḍ                | ð             |       |   |                 |       |       |
+|        | **e**  |       |   |        |       |       |   | ē                | đ             |       |   |                 |       |       |
+|        | **g**  |       |   |        |       |       |   | ġ                | ◌̄             |       |   |                 |       |       |
+|        | **h**  |       |   |        |       |       |   | ḥ                | ħ             |       |   |                 |       |       |
+|        | **g**  |       |   |        |       |       |   | ǧ                | ◌̣_ (underdot) |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   | ◌̇ (overdot)      | ĸ             |       |   |                 |       |       |
+|        | **l**  |       |   |        |       |       |   | ḷ                | ł             |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   | ◌̱ (underbar)     | ˝_            |       |   | ◌̬ (caron below) | empty |       |
+|        |        |       |   |        |       |       |   | å                | ^_            |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   | ˇ_ (caron above) | ’             |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   |                  |               |       |   |                 |       |       |
+|        |        |       |   |        |       |       |   | empty            | »             |       |   | empty           | ›     |       |
+|        | **x**  |       |   |        |       |       |   | ḫ                | «             |       |   | Ḫ               | ‹     |       |
+|        |        |       |   |        |       |       |   |                  |               |       |   | ◌̄ (macron)      | —     |       |
+
+_Note 1: Some cells show a symbol followed by an underscore, for example ^_. Those are so-called "dead" keys where for anything to show up, the spacebar has to be pressed following the key.
+_Note 2: Note that "ḫ" is a latin letter "h" with a breve, **not** a caron, below. The diacritic symbol on the "ö" key, on the other hand, is a **caron** below.
+
+## How to get
 
 ### Windows
 
