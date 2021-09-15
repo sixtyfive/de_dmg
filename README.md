@@ -69,7 +69,7 @@ From left to right, with one empty column between:
 
 ### Windows
 
-See the [ancient release](https://github.com/sixtyfive/de_dmg/releases/tag/ancient) page for installer files or just download the [zip file](https://github.com/sixtyfive/de_dmg/releases/download/ancient/de_dmg-WindowsXP7810-3264.zip) directly, unzip, run `setup.exe`.
+See the [release](https://github.com/sixtyfive/de_dmg/releases/) page for installer files or just download the [zip file](https://github.com/sixtyfive/de_dmg/releases/download/ancient/de_dmg-Windows-XP_7_8_10-32_64.zip) directly, unzip, run `setup.exe`.
 
 After installation, the DMG layout will be immediately available.
 
