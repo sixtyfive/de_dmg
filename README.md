@@ -77,7 +77,7 @@ After installation, the DMG layout will be immediately available.
 
 The following steps will all have to be executed in a terminal window. If you don't have experience with that or don't feel comfortable doing it, get a friend to do it. If she's got just a little bit of experience with Linux or another Unix-based operating system, chances are this will be easy for her.
 
-<table><tr><td><em><strong>Heads up:</strong> </em>de_dmg<em> will </em>only<em> work with Xorg/X11-based Linux distributions, which is the overwhelming majority. The notable exceptions are Fedora >= 25, RHEL 8 and Ubuntu from 17.10 to 18.04. At least in the case of the latter it seems to be easy to replace Wayland with Xorg again, though.</em></td></tr></table>
+<table><tr><td><em><strong>Heads up:</strong> </em>de_dmg<em> will </em>only<em> work with Xorg/X11-based Linux distributions, which, as of September of 2021, is still the majority. The author does not yet use a Wayland-based system on a regular basis. If you require support for Wayland, please do open an Issue! Merge Requests are of course also always welcome :-)</em></td></tr></table>
 
 ### 1. Prerequisites
 
@@ -87,7 +87,7 @@ The following steps will all have to be executed in a terminal window. If you do
 sudo apt install git rake xsltproc bash sed grep coreutils xkb-data
 ```
 
-#### Solus 4.0 (possibly older versions, too, but go and upgrade already!)
+#### Solus Linux
 
 ```
 sudo eopkg it git ruby libxslt bash sed grep coreutils
