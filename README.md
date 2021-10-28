@@ -4,9 +4,16 @@ These keyboard layouts were created sometime between 2010 and 2011. The Windows 
 
 See below for installation instructions. [PRs](https://github.com/sixtyfive/de_dmg/compare) welcome!
 
-## How to use
+## Similar Projects
 
-The `de_dmg` layout began as an Arabic-only layout before some users wished for the ability to type other phonemes (such as the Persian _s̱_ or the Ottoman _ż_) as well. Unfortunately, PC keyboards, even with using all four levels (no modifier key; with Shift; with Alt Gr; with Alt Gr and Shift) don't provide enough keys to accomodate all required combinations of letters and diacritic symbols. Therefore we decided to have a dedicated key for all symbols required for Arabic and combine that with having keys for the diacritic symbols to freely combine them with any desired letter.
+In case *de_dmg* is not quite what you were looking for, there are two other projects the author is aware of and well worth checking out.
+
+- Cornelis van Lit's [Orientalist Keyboard Layouts](https://zenodo.org/record/3369595), available for both Windows and macOS
+- University of Zurich's _TRAPTO_ keyboard layout available for [Windows](https://www.aoi.uzh.ch/de/islamwissenschaft/it/transcription/tastaturwin.html) and [macOS](https://www.aoi.uzh.ch/de/islamwissenschaft/it/transcription/tastaturmacosx.html)
+
+## How to Use
+
+The _de_dmg_ layout began as an Arabic-only layout before some users wished for the ability to type other phonemes (such as the Persian _s̱_ or the Ottoman _ż_) as well. Unfortunately, PC keyboards, even with using all four levels (no modifier key; with Shift; with Alt Gr; with Alt Gr and Shift) don't provide enough keys to accomodate all required combinations of letters and diacritic symbols. Therefore we decided to have a dedicated key for all symbols required for Arabic and combine that with having keys for the diacritic symbols to freely combine them with any desired letter.
 
 This is what the layout looks like:
 
@@ -17,7 +24,7 @@ This is what the layout looks like:
 - By using _Alt Gr_ you reach the third level, which retains _¹_, _²_, _³_, _@_, _€_, _~_, _|_, _„_, _”_, _·_, _…_ and _–_ as you might be used to. But it also has all of the Arabic phonemes (see table below) by putting the diacritized latin letters (mostly) to where their non-diacritized version are on the default German layout, (sometimes) on where the corresponding Arabic letter is on the US-based Arabic layout, and (in one case, unfortunately, with _š_ being on the _$_ key), in a location that at least allows one to form a mnemonic hook. 
 - By combining _Alt Gr_ with _Shift_, you get the same diacritized latin letters, but uppercase versions of them.
 
-### Comparison table
+### Comparison Table
 
 From left to right, with one empty column between:
 
@@ -65,7 +72,7 @@ From left to right, with one empty column between:
 - _Note 2: "Ḫ" is a latin letter "h" with a breve, **not** a caron, below. The diacritic symbol on the "ö" key, on the other hand, is a **caron** below._
 - _Note 3: In order to combine a letter with one of the standalone diacritics provided, type the letter first, then, _without_ hitting any other key, including spacebar, type the diacritic._
 
-## How to get
+## How to Get
 
 ### Windows
 
