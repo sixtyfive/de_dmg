@@ -6,7 +6,7 @@ See below for installation instructions. [PRs](https://github.com/sixtyfive/de_d
 
 ## Similar Projects
 
-In case *de_dmg* is not quite what you were looking for, there are two other projects the author is aware of and well worth checking out.
+In case *de_dmg* is not quite what you were looking for, there are two other projects the author is aware of and which are well worth checking out.
 
 - Cornelis van Lit's [Orientalist Keyboard Layouts](https://zenodo.org/record/3369595), available for both Windows and macOS
 - University of Zurich's _TRAPTO_ keyboard layout available for [Windows](https://www.aoi.uzh.ch/de/islamwissenschaft/it/transcription/tastaturwin.html) and [macOS](https://www.aoi.uzh.ch/de/islamwissenschaft/it/transcription/tastaturmacosx.html)
