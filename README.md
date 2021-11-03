@@ -12,6 +12,8 @@ In case *de_dmg* is not quite what you were looking for, there are three other p
 - University of Zurich's _TRAPTO_ keyboard layout available for [Windows](https://www.aoi.uzh.ch/de/islamwissenschaft/it/transcription/tastaturwin.html) and [macOS](https://www.aoi.uzh.ch/de/islamwissenschaft/it/transcription/tastaturmacosx.html)
 - Theo Beers maintains the _Alt-Latin_ layout, also available for [Windows](https://medium.com/@tbeers/the-alt-latin-keyboard-layout-windows-version-701c64f8bfd8) and [macOS](https://medium.com/@tbeers/the-alt-latin-keyboard-layout-macos-version-f5be707cf272)
 
+Nothing tangible yet, but worth keeping an eye out for: [AABC](https://app-stone.org/referenzen-apps-projekte/aabc/)
+
 If you know other such projects, I'd love to hear about and link to them!
 
 ## How to Use
