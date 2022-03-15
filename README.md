@@ -8,11 +8,10 @@ See below for installation instructions. [PRs](https://github.com/sixtyfive/de_d
 
 In case *de_dmg* is not quite what you were looking for, there are three other projects the author is aware of and which also implement keyboard layouts for writing roman-script transcriptions of Arabic-script languages:
 
+- University of Bayreuth's [AABC project](https://www.africamultiple.uni-bayreuth.de/en/AABC/English-Version/index.html), which has a wider scope than just Arabic-script languages and also tries to cover mobile operating systems
 - Cornelis van Lit's [Orientalist Keyboard Layouts](https://zenodo.org/record/3369595), available for both Windows and macOS
 - University of Zurich's _TRAPTO_ keyboard layout available for [Windows](https://www.aoi.uzh.ch/de/islamwissenschaft/it/transcription/tastaturwin.html) and [macOS](https://www.aoi.uzh.ch/de/islamwissenschaft/it/transcription/tastaturmacosx.html)
-- Theo Beers maintains the _Alt-Latin_ layout, also available for [Windows](https://medium.com/@tbeers/the-alt-latin-keyboard-layout-windows-version-701c64f8bfd8) and [macOS](https://medium.com/@tbeers/the-alt-latin-keyboard-layout-macos-version-f5be707cf272)
-
-Nothing tangible yet, but worth keeping an eye out for: [AABC](https://app-stone.org/referenzen-apps-projekte/aabc/)
+- the _Alt-Latin_ layout, also available for [Windows](https://medium.com/@tbeers/the-alt-latin-keyboard-layout-windows-version-701c64f8bfd8) and [macOS](https://medium.com/@tbeers/the-alt-latin-keyboard-layout-macos-version-f5be707cf272) and nowadays maintained by Theodore S. Beers
 
 If you know other such projects, I'd love to hear about and link to them!
 
