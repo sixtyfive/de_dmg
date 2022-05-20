@@ -92,16 +92,22 @@ The following steps will all have to be executed in a terminal window. If you do
 
 ### 1. Prerequisites
 
+### ArchLinux-based (including Artix, Manjaro, etc.)
+
+```
+sudo pacman -Sy git ruby-rake libxslt sed grep coreutils xkeyboard-config
+```
+
 #### Debian-based (including Ubuntu and Linux Mint)
 
 ```
-sudo apt install git rake xsltproc bash sed grep coreutils xkb-data
+sudo apt install git rake xsltproc sed grep coreutils xkb-data
 ```
 
 #### Solus Linux
 
 ```
-sudo eopkg it git ruby libxslt bash sed grep coreutils
+sudo eopkg it git ruby libxslt sed grep coreutils
 ```
 
 ### 2. Download
